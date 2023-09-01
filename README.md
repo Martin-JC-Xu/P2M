@@ -2,17 +2,21 @@
 This repository is the official code release for the paper "P2M: A Fast Solver for Querying Distance from Point to Mesh Surface". This paper is published in ACM Transactions on Graphics (SIGGRAPH 2023). 
 
 Paper link: https://arxiv.org/abs/2308.16084
+
 Doi: https://dl.acm.org/doi/10.1145/3592439
 
 ### Dependencies
 
 - Eigen: https://eigen.tuxfamily.org/
+
   We use the template in Eigen as the basic data type of geometric information. Please download and configure this library. 
 
 - TBB: https://github.com/wjakob/tbb
+
   We add CPU-based parallelism in the preprocessing stage of P2M.  Please download and configure this library. 
 
 - Tetgen: https://wias-berlin.de/software/index.jsp?lang=1&id=TetGen
+
   We call tetgen in the construction of Delaunay tetrahedralization. We have already added the modified files (`tetgen.h`, `tetgen.cpp`, `predicates.h`) of tetgen in this repository. 
 
 ### Example
