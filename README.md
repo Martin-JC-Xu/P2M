@@ -21,7 +21,7 @@ Doi: https://dl.acm.org/doi/10.1145/3592439
 
 ### Example
 
-Here is an example. The code is tested on Windows 11 with Visual Studio 2019. 
+Here is an example. The code has been tested in release mode on Windows 11 using Visual Studio 2019. 
 
 ```C++
 #include "Model.h"
